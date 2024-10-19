@@ -117,17 +117,17 @@ main {
   margin-bottom: 20px;
 }
 
-#reasons > hr {
+#healthy, #strong, #free, #social {
+  margin-bottom: 20px;
+}
+
+#healthy hr, #strong hr, #free hr, #social hr {
   border-top: 1px solid #3a3a3a;
   margin: 5px 0;
 }
 
-#healthy {
-  margin-bottom: 20px;
-}
-
-#strong {
-  margin-bottom: 20px;
+#healthy i, #strong i, #free i, #social i {
+  margin-left: 5px;
 }
 
 /*Media query for tablets and larger, 768px and up*/
