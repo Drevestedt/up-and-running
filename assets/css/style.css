@@ -308,8 +308,29 @@ main {
   #photos {
     column-count: 3;
   }
-}
 
+  /*For Signup page*/
+  #signup {
+    position: relative;
+    background-position: center;
+  }
+
+  #signup-form {
+    position: absolute;
+    max-width: 400px;
+    left: 10%;
+    top: 150px;
+  }
+
+  .text-input:hover {
+    border-color: #f16c6b;
+  }
+
+  .join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+  }
+}
 /*For Laptops and Desktops*/
 @media screen and (min-width: 992px) {
   #menu a:hover {
