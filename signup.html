@@ -46,9 +46,21 @@
         <input type="text" id="email-address" name="email-address" class="text-input" required>
         
         <div>
-          <div>
-            <input type="radio" >
+          <div class="radio-buttons">
+            <div>
+              <label for="running-preference">Road</label>
+              <input type="radio" id="road" name="running-preference" required checked>
+            </div>
+            <div>
+              <label for="running-preference">Trail</label>
+              <input type="radio" id="trail" name="running-preference" required>
+            </div>
+            <div>
+            <label for="running-preference">Both</label>
+            <input type="radio" id="both" name="running-preference" required>
+            </div>
           </div>
+          <button type="submit" class="join-button">Let's Run!</button>
         </div>
       </form>
     </section>
